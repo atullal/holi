@@ -1,95 +1,71 @@
-This is a sample theme for Obsidian ([https://obsidian.md](https://obsidian.md/)).
+# Holi - A Vibrant and Expressive Obsidian Theme
 
-## First Time publishing a theme?
+Holi is a colorful and expressive theme for Obsidian, designed to inspire creativity and vibrancy in your note-taking experience. Drawing inspiration from the vibrant hues of the Indian festival of colors, this theme aims to bring a burst of energy and joy to your digital workspace.
 
-### Quick start
+## The Idea Behind the Design
 
-<img width="244" alt="Pasted image 20220822135601" src="https://user-images.githubusercontent.com/693981/186000386-4f4da987-fcaf-4aa5-aed4-e34b5901255d.png">
+The concept behind Holi's design is to create a visual environment that celebrates self-expression and encourages free-flowing thoughts. By incorporating a rich palette of vivid colors, the theme aims to stimulate the senses and foster an atmosphere conducive to creative thinking and exploration.
 
-First, choose **Use this template**. That will create a copy of this repository (repo) under your Github profile. Then, you will want to _clone_ your new repository to your computer.
+![Holi Theme Screenshot](screenshot.png)
 
-Once you have the repo locally on your computer, there are a couple of placeholder fields you will need to fill in.
+## Design Principles
 
-1. Inside the `manifest.json` file, change the "name" field to whatever you want the name of your theme to be. For example:
+Holi adheres to the following design principles:
 
-  ```json
-  {
-    "name": "Moonstone",
-    "version": "0.0.0",
-    "minAppVersion": "1.0.0"
-  }
-  ```
+1. **Color Harmony**: The theme utilizes a carefully curated color palette that combines complementary and analogous hues, creating a visually appealing and cohesive experience.
 
-2. Also inside the manifest.json file, you can include your name under next to the "author" field.
+2. **Readability**: While embracing vibrant colors, Holi ensures that text remains legible and comfortable to read, preventing eye strain during extended note-taking sessions.
 
-After you have those fields configured, all that's left to do is add your styles! All of your CSS needs to be inside the file `theme.css` which is located at root of your repository.
+3. **Aesthetic Delight**: Holi's design incorporates playful elements and subtle animations, adding a touch of whimsy and delight to the user experience.
 
-## Adding your theme to the Theme Gallery
+4. **Customization**: The theme offers various customization options, allowing users to tailor the appearance to their personal preferences and workflow requirements.
 
-### Add a screenshot thumbnail
+5. **Typography**: Holi uses the [PP Fragment](https://pangrampangram.com/products/fragment) font family, a modern and expressive typeface that complements the theme's vibrant color palette.
 
-Inside the repository, include a screenshot thumbnail of your theme. You can name the file anything, for example `screenshot.png`. This image will be used for the small preview in the theme list.
+## Promoting Creativity
 
-Your screenshot file should be `16:9` aspect ratio.
-The recommended size is 512x288.
+Holi is designed to promote creativity in several ways:
 
-### Submit your theme for review
+- **Vibrant Colors**: The vivid color palette is intended to spark inspiration and encourage creative expression, making it easier to visualize and explore ideas.
 
-To have your theme included in the Theme Gallery, you will need to submit a Pull Request to [`obsidianmd/obsidian-releases`](https://github.com/obsidianmd/obsidian-releases#community-theme).
+- **Minimalist Design**: The clean and uncluttered interface reduces visual distractions, allowing users to focus on their thoughts and ideas without unnecessary distractions.
 
-## Releasing Versions _(Optional)_
+- **Expressive Elements**: The theme incorporates subtle animations and playful elements, fostering a sense of joy and encouraging users to embrace their creative side.
 
-If your theme is getting more and more complex, you might want to start thinking about how your theme will stay compatible with different versions of Obsidian. Introduced in v0.16 of Obsidian, themes support [Github Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository). This means that you can specify which versions of your theme are compatible with which versions of Obsidian.
+- **Flexible Customization**: By providing customization options, Holi empowers users to personalize their note-taking environment, aligning it with their unique creative processes and preferences.
 
-### Steps for releasing the initial version of your theme (1.0.0)
+Whether you're a writer, artist, student, or professional, Holi aims to elevate your note-taking experience by combining functionality with a visually stimulating and expressive design. Embrace the vibrant colors and let your creativity flourish!
 
-1. From your theme's repository, click on "Releases".
-   
-<img width="235" alt="Pasted image 20220822145001" src="https://user-images.githubusercontent.com/693981/186000441-287a1a97-65f6-4b5f-ba66-810ceae91cd3.png">
+## Installation
 
-2. On the Releases page, there should be a button to **Draft a new Release**. Press it.
+Inside Obsidian, go to `Settings ➞ Appearance ➞ Manage`, and look for `Holi`.
 
-<img width="202" alt="Pasted image 20220822145048" src="https://user-images.githubusercontent.com/693981/186000664-6c63ae14-f685-4d39-bfe6-324f95cd9669.png">
+You can also manually install Holi by:
 
-3. Fill out the Release information form.
-	- **Choose a Tag**: Type in the name of the version number here. At the bottom of the dropdown should be a button to create a new tag with your latest theme changes. Choose this option.
-		<img width="340" alt="Pasted image 20220822145648" src="https://user-images.githubusercontent.com/693981/186000848-bd1c2619-ea09-4e70-a886-40769cda6921.png">
-	- **Release Title**: This can be the version number.
-	- **Description** _Optional_: Anything that changed
-	- **Files:** The most important part of this form is uploading the files. You can do this by dragging 'n dropping the `manifest.json` file and the `theme.css` file your for theme inside the file upload field.
+1. Downloading the CSS file and moving it into the folder `.obsidian/themes/` located in your vault folder;
+2. Rename the CSS file to `Holi.css`;
+3. In Obsidian, go to `Settings ➞ Appearance ➞ Themes ➞ Reload themes`, and select `Holi`.
 
-<img width="946" alt="Pasted image 20220822145356" src="https://user-images.githubusercontent.com/693981/186000772-e689ecea-c3b7-4e9d-9204-7ad62c0123aa.png">
+## Disclaimer
 
-4. Click "Publish Release."
-5. Make sure that `versions.json` is set up correctly. This file is a map.
-  ```json
-  {
-    "1.0.0": "0.16.0"
-  }
-  ```
-  
-  This means that version 1.0.0 of your theme is compatible with version 0.16.0 of Obsidian. For the initial release of your theme, you shouldn't need to make any changes to this file.
- 
-### Steps for releasing new versions
+The following theme significantly alters Obsidian's original CSS, and so is prone to breaking upon new Obsidian updates, as well as being incompatible with custom CSS snippets, which might require specific adjustments.
 
-Releasing a new version of your theme is the same as releasing the initial version.
+## Recommended Plugins
 
-1. From your theme's repository, click on "Releases."
-2. On the Releases page, there should be a button to **Draft a new Release**. Press it.
-3. Fill out the Release information form.
-	- **Choose a Tag**: Type in the name of the version number here. At the bottom of the dropdown should be a button to create a new tag with your latest theme changes. Choose this option.
-		<img width="333" alt="Pasted image 20220822145812" src="https://user-images.githubusercontent.com/693981/186000912-f494def9-0f67-4662-92bf-bd278082455f.png">
-	- **Release Title**: This can be the version number.
-	- **Description** _Optional_: Anything that changed
-	- **Files:** The most important part of this form is uploading the files. You can do this by dragging 'n dropping the `manifest.json` file and the `theme.css` file your for theme inside the file upload field.
+- **Smart Typography**: for a better and coherent writing experience
+- **Contextual Typography**: For a better typographic experience, and access to some of the theme's features
 
-4. Click "Publish Release."
-5. Update the `versions.json` file in your repository. For the initial release of your theme, you probably didn't need to make any changes to the `versions.json` file. When you release subsequent versions of your theme; however, it's best practice to include the new version as entry in the versions.json file. So this might look like:
-  ```json
-  {  
-		"1.0.0": "0.16.0",
-		"1.0.1": "0.16.0"
-  }
-  ```
+## Feedback & Contributions
 
-  What's important to note here is: the new version is included as the "key" and the "value" is the minimum version of Obsidian that your theme compatible with. So if the new version of your theme is only compatible with an Insider version of Obsidian, it's important to set this value accordingly. This will prevent users on older versions of Obsidian from updating to the newer version of your theme.
+If you encounter an issue, or would like to contribute to this theme, don't hesitate to submit an issue or raise a PR. You can also message me on Discord @jdaniel or on the Obsidian Forums.
+
+## Support
+
+If you enjoy my work and would like to support it, you may click the icons below, or the links on the right side of this repository.
+
+[![Ko-Fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/your-ko-fi-username)
+[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/your-paypal-link)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
