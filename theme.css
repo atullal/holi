@@ -46,8 +46,8 @@ body {
 }
 
 .theme-dark {
-    --background-primary: #18004f;
-    --background-secondary: #220070;
+    --background-primary: #000000;
+    --background-secondary: #161616;
 }
 
 .theme-light {
@@ -55,29 +55,38 @@ body {
     --background-secondary: #fcf1db;
 }
 
-.workspace-ribbon {
+.theme-light .workspace-ribbon {
     background-color: #fdcee7;
     background-image: linear-gradient(105deg, #fdcee7 0%, #ebe0c2 50%);
 }
 
-.mod-vertical .workspace-tab-header-container {
+.theme-light .mod-vertical .workspace-tab-header-container {
     background-color: #d4ffb0;
     background-image: linear-gradient(241deg, #d4ffb0 0%, #fff8ea 48%);
 }
 
-.mod-top-left-space .workspace-tab-header-container {
+.theme-light .mod-top-left-space .workspace-tab-header-container {
     background-image: linear-gradient(35deg, #feffa2 0%, #fff5e2 48%);
 }
 
-.mod-left-split .workspace-tabs .workspace-leaf {
+.theme-light .mod-left-split .workspace-tabs .workspace-leaf {
     background-image: linear-gradient(62deg, #8ec5fc 0%, #fcf1db 40%);
 }
 
-.sidebar-toggle-button.mod-left {
+.theme-light .sidebar-toggle-button.mod-left {
     background-color: #ffafd4;
     background-image: linear-gradient(315deg, #ffafd4 0%, #ff187f 100%);
 }
 
-.sidebar-toggle-button.mod-left .clickable-icon {
+.theme-light .sidebar-toggle-button.mod-left .clickable-icon {
     color: white;
+}
+
+.theme-light .mod-top-right-space .workspace-tab-header-container {
+    background-color: #ffa5b3;
+    background-image: linear-gradient(268deg, #ffd3da 0%, #c8e8eb 100%);
+}
+
+.theme-light .workspace-tab-header-container {
+    background-color: #ebe0c2;
 }
